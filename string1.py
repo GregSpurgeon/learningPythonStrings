@@ -4,7 +4,7 @@ Kenzie assignment: String1
 """
 # Your name, plus anyone who helped you with this assignment.
 # Give credit where credit is due.
-__author__ = "Greg Spurgeon"
+__author__ = "GregSpurgeon with help from stackoverflow and w3 school"
 
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
@@ -30,7 +30,7 @@ __author__ = "Greg Spurgeon"
 def donuts(count):
     if count < 10:
         return("Number of donuts: " + str(count))
-    else: 
+    else:
         return("Number of donuts: many")
 
 # B. both_ends
@@ -63,7 +63,6 @@ def both_ends(s):
 def fix_start(s):
     new_string = s[1:].replace(s[0], "*")
     return(s[0] + new_string)
-    
 
 
 # D. mix_up
@@ -81,6 +80,8 @@ def mix_up(a, b):
 
 # Provided simple test() function used in main() to print
 # what each function returns vs. what it's supposed to return.
+
+
 def test(got, expected):
     if got == expected:
         prefix = ' OK '

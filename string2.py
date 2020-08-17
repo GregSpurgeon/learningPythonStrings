@@ -4,7 +4,7 @@ Kenzie assignment: String2
 """
 # Your name, plus anyone who helped you with this assignment.
 # Give credit where credit is due.
-__author__ = "???"
+__author__ = "GregSpurgeon with help from w3school.com"
 
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
@@ -49,7 +49,6 @@ def not_bad(s):
         return(s.replace(remove_from_string, "good"))
     else:
         return(s)
-    
 
 
 # F. front_back
